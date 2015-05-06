@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bgImageName</key>
+	<string>tabbar_bg.png</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>tabbar_0</string>
+			<key>selectImageName</key>
+			<string>tabbar_0_press</string>
+			<key>title</key>
+			<string>消息</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>tabbar_1</string>
+			<key>selectImageName</key>
+			<string>tabbar_1_press</string>
+			<key>title</key>
+			<string>番茄圈</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>tabbar_2</string>
+			<key>selectImageName</key>
+			<string>tabbar_2_press</string>
+			<key>title</key>
+			<string>发现</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>tabbar_3</string>
+			<key>selectImageName</key>
+			<string>tabbar_3_press</string>
+			<key>title</key>
+			<string>我的</string>
+		</dict>
+	</array>
+</dict>
+</plist>

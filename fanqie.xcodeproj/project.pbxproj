@@ -14,6 +14,12 @@
 		F4F864611AFA14AF005E48DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F864601AFA14AF005E48DC /* Images.xcassets */; };
 		F4F864641AFA14AF005E48DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F864621AFA14AF005E48DC /* LaunchScreen.xib */; };
 		F4F864701AFA14AF005E48DC /* fanqieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8646F1AFA14AF005E48DC /* fanqieTests.m */; };
+		F4F8647D1AFA14E2005E48DC /* MyTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8647B1AFA14E2005E48DC /* MyTabbar.m */; };
+		F4F8647E1AFA14E2005E48DC /* Tabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4F8647C1AFA14E2005E48DC /* Tabbar.plist */; };
+		F4F864811AFA181F005E48DC /* AroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F864801AFA181F005E48DC /* AroundViewController.m */; };
+		F4F864841AFA182E005E48DC /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F864831AFA182E005E48DC /* DiscoverViewController.m */; };
+		F4F864871AFA183F005E48DC /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F864861AFA183F005E48DC /* SelfViewController.m */; };
+		F4F8648C1AFA1C67005E48DC /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8648B1AFA1C67005E48DC /* MessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		F4F864691AFA14AF005E48DC /* fanqieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fanqieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F8646E1AFA14AF005E48DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F8646F1AFA14AF005E48DC /* fanqieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fanqieTests.m; sourceTree = "<group>"; };
+		F4F8647A1AFA14E2005E48DC /* MyTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbar.h; sourceTree = "<group>"; };
+		F4F8647B1AFA14E2005E48DC /* MyTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbar.m; sourceTree = "<group>"; };
+		F4F8647C1AFA14E2005E48DC /* Tabbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tabbar.plist; sourceTree = "<group>"; };
+		F4F8647F1AFA181F005E48DC /* AroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AroundViewController.h; sourceTree = "<group>"; };
+		F4F864801AFA181F005E48DC /* AroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AroundViewController.m; sourceTree = "<group>"; };
+		F4F864821AFA182E005E48DC /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		F4F864831AFA182E005E48DC /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		F4F864851AFA183F005E48DC /* SelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		F4F864861AFA183F005E48DC /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
+		F4F8648A1AFA1C67005E48DC /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F4F8648B1AFA1C67005E48DC /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,7 @@
 		F4F864521AFA14AF005E48DC /* fanqie */ = {
 			isa = PBXGroup;
 			children = (
+				F4F864791AFA14E2005E48DC /* 自定义tabbar */,
 				F4F864571AFA14AF005E48DC /* AppDelegate.h */,
 				F4F864581AFA14AF005E48DC /* AppDelegate.m */,
 				F4F8645A1AFA14AF005E48DC /* ViewController.h */,
@@ -89,6 +107,14 @@
 				F4F864601AFA14AF005E48DC /* Images.xcassets */,
 				F4F864621AFA14AF005E48DC /* LaunchScreen.xib */,
 				F4F864531AFA14AF005E48DC /* Supporting Files */,
+				F4F8647F1AFA181F005E48DC /* AroundViewController.h */,
+				F4F864801AFA181F005E48DC /* AroundViewController.m */,
+				F4F864821AFA182E005E48DC /* DiscoverViewController.h */,
+				F4F864831AFA182E005E48DC /* DiscoverViewController.m */,
+				F4F864851AFA183F005E48DC /* SelfViewController.h */,
+				F4F864861AFA183F005E48DC /* SelfViewController.m */,
+				F4F8648A1AFA1C67005E48DC /* MessageViewController.h */,
+				F4F8648B1AFA1C67005E48DC /* MessageViewController.m */,
 			);
 			path = fanqie;
 			sourceTree = "<group>";
@@ -117,6 +143,16 @@
 				F4F8646E1AFA14AF005E48DC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F864791AFA14E2005E48DC /* 自定义tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F4F8647A1AFA14E2005E48DC /* MyTabbar.h */,
+				F4F8647B1AFA14E2005E48DC /* MyTabbar.m */,
+				F4F8647C1AFA14E2005E48DC /* Tabbar.plist */,
+			);
+			path = "自定义tabbar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +237,7 @@
 			files = (
 				F4F8645F1AFA14AF005E48DC /* Main.storyboard in Resources */,
 				F4F864641AFA14AF005E48DC /* LaunchScreen.xib in Resources */,
+				F4F8647E1AFA14E2005E48DC /* Tabbar.plist in Resources */,
 				F4F864611AFA14AF005E48DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F864811AFA181F005E48DC /* AroundViewController.m in Sources */,
+				F4F864871AFA183F005E48DC /* SelfViewController.m in Sources */,
+				F4F864841AFA182E005E48DC /* DiscoverViewController.m in Sources */,
 				F4F8645C1AFA14AF005E48DC /* ViewController.m in Sources */,
 				F4F864591AFA14AF005E48DC /* AppDelegate.m in Sources */,
 				F4F864561AFA14AF005E48DC /* main.m in Sources */,
+				F4F8648C1AFA1C67005E48DC /* MessageViewController.m in Sources */,
+				F4F8647D1AFA14E2005E48DC /* MyTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +392,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fanqie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,8 +404,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fanqie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
